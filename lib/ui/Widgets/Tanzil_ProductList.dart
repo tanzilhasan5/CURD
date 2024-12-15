@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart';
 
 class TanzilProductList extends StatelessWidget {
   const TanzilProductList({
@@ -10,11 +11,10 @@ class TanzilProductList extends StatelessWidget {
     return ListView.builder(
       itemCount: 12,
       itemBuilder: (context, index) {
-        var Tanzil;
         return SizedBox(
           width: 200.0,
           height: 100.0,
-          child: Tanzil.fromColors(
+          child: Shimmer.fromColors(
             baseColor: Colors.grey.shade300,
             highlightColor: Colors.white,
             child: ListTile(
