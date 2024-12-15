@@ -30,7 +30,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
         title: const Text('Add Product'),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.deepOrangeAccent,
       ),
       body: SingleChildScrollView(
         child: Padding(

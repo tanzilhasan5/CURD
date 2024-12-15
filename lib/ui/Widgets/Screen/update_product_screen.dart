@@ -42,7 +42,7 @@ class _UpdateProductScreenState extends State<UpdateProductScreen> {
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
         title: Text('Update Product'),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.deepOrangeAccent,
       ),
       body: SingleChildScrollView(
         child: Padding(

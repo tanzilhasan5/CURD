@@ -32,7 +32,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
       backgroundColor: Colors.grey.shade50,
       appBar: AppBar(
         title: const Text('Product'),
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.deepOrange,
         surfaceTintColor: Colors.white,
         actions: [
           IconButton(
